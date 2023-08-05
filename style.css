@@ -1,0 +1,345 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-bg{
+    position: sticky;
+}
+a{
+    font-weight: 400 !important;
+    text-decoration: none;
+    color: unset;
+}
+
+.navbar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #3455eb;
+}
+
+a[aria-current="page"] {
+  opacity: 0.8;
+  text-decoration: underline;
+  
+}
+
+.titleHero span{
+    color: #746BDB;
+}
+
+.titleHero button{
+        background-color: #746BDB;
+        padding: 10px 20px;
+        color: #fff;
+        border: none;
+}
+
+.heroImage{
+    text-align: center;
+}
+.heroImage img{
+    width:80%;
+}
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  margin-left:-5px;
+  margin-right:-5px;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.titlekotak{
+  font-size: 20px;
+  font-weight: 200px;
+}
+
+.kotak2{
+  background-color: #15244E;;
+}
+titlekotak2{
+  font-size: 20px;
+  color: #ddd;
+}
+
+.isikotak{
+  padding: 20px;
+  font-size: 12px;
+  
+}
+
+.carousel-item{
+  cursor: pointer;
+}
+
+#bgHero{
+  background-image: url(./assets/Vector\ 3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 230px;  
+}
+
+
+#Focus_popup{
+  display: none;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.438);
+  height: 100vh;
+
+  & .focus{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+  }
+
+  & .focus button{
+    position: absolute;
+    top: 30px;
+    cursor: pointer;
+    right: 30px;
+  }
+
+  & .focus img{
+    width: 550px;
+  }
+}
+
+#Focus_popup2{
+  display: none;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.438);
+  height: 100vh;
+
+  & .focus{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+  }
+
+  & .focus button{
+    position: absolute;
+    top: 30px;
+    cursor: pointer;
+    right: 30px;
+  }
+
+  & .focus img{
+    width: 550px;
+  }
+}
+
+#Focus_popup3{
+  display: none;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.438);
+  height: 100vh;
+
+  & .focus{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+  }
+
+  & .focus button{
+    position: absolute;
+    top: 30px;
+    cursor: pointer;
+    right: 30px;
+  }
+
+  & .focus img{
+    width: 500px;
+    height: 90%;
+  }
+}
+
+.card{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover{
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0,2);
+}
+
+#gambarkonten{
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+footer{
+  display: flex;
+  align-items: center;
+  height: 400px;
+  background-image: url(./assets/Group\ 18.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gradient-custom-2 {
+/* fallback for old browsers */
+background: #fccb90;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+.gradient-form {
+height: 100vh !important;
+}
+}
+@media (min-width: 769px) {
+.gradient-custom-2 {
+border-top-right-radius: .3rem;
+border-bottom-right-radius: .3rem;
+}
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+font-size: 1rem;
+line-height: 2.15;
+padding-left: .75em;
+padding-right: .75em;
+}
+.card-registration .select-arrow {
+top: 13px;
+}
+
+.tugasdanfungsi h5{
+  color: #2D862D;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+#isitugaspokok p{
+  color:black;
+ 
+}
+#isifungsi{
+  text-align: left;
+  margin-left: 10%;
+}
+#isivisi{
+  padding: 20px;
+}
+
+#isimisi{
+  text-align: left;
+  margin-left: 10%;
+}
+
+#bmkgcontact{
+  font-weight: bold;
+  color: #2D862D;
+  margin-top: -20px;
+}
+
+#isicontactbmkg{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#isicontactbmkg p{
+  margin: -10px;
+  margin-left: 3px;
+}
+
+.isimedsosbmkg {
+  margin-top: -10px;
+}
+.isimedsosbmkg p{
+  margin-top: -10px;
+}
+
+#judulisicontactbmkg{
+  font-weight: bold;
+}
+
+.maincontent{
+  align-items: center;
+}
+
+#navbardashboard{
+  height: 50px;
+  max-width: 75%;
+  border: solid;
+  margin-left: 355px;
+  margin-top: -40%;
+  background-color: #15244E;
+  display: flex;
+}
+#navbardashboard p{
+  color: #ddd;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+.tablefile{
+  max-width: 75%;
+  margin-left: 355px;
+}
+
+.placefileupload{
+  height: 350px;
+  max-width: 40%;
+  border:solid;
+  border-color: #15244E;
+  margin-left: 40%;
+  margin-top: 5%;
+  border-radius: 10PX;
+}
+.placefileupload p{
+  margin-top: 0%;
+  margin-left: 40%;
+  color: #999BA8;
+}
+#footercontent{
+  height: 20%;
+  max-width: 100%;
+  border-top: solid;
+  margin-top: 120px;
+  display: flex;
+}
+

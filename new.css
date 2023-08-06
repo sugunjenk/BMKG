@@ -112,11 +112,11 @@
     overflow: hidden;
     padding: 20px;
     border: 2px solid #506496;
-    width: 340px;
+    width: 300px;
     position: relative;
     border-radius: 20px;
-    height: 340px;
-    margin-top: 40px;
+    height: 430px !important;
+    margin-top: 40px; 
 
     & h4 {
       color: #506496;

@@ -219,6 +219,95 @@
   }
 }
 
+/* courosel*/
+.carousel-item{
+  cursor: pointer;
+}
+
+#Focus_popup{
+  display: none;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.438);
+  height: 100vh;
+
+  & .focus{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+  }
+
+  & .focus button{
+    position: absolute;
+    top: 30px;
+    cursor: pointer;
+    right: 30px;
+  }
+
+  & .focus img{
+    width: 550px;
+  }
+}
+
+#Focus_popup2{
+  display: none;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.438);
+  height: 100vh;
+
+  & .focus{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+  }
+
+  & .focus button{
+    position: absolute;
+    top: 30px;
+    cursor: pointer;
+    right: 30px;
+  }
+
+  & .focus img{
+    width: 550px;
+  }
+}
+
+#Focus_popup3{
+  display: none;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.438);
+  height: 100vh;
+
+  & .focus{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+  }
+
+  & .focus button{
+    position: absolute;
+    top: 30px;
+    cursor: pointer;
+    right: 30px;
+  }
+
+  & .focus img{
+    width: 500px;
+    height: 90%;
+  }
+}
 
 /* footer */
 

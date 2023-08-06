@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #2a70b0 !important;
+}
+
+.active {
+  color: white !important;
+  font-weight: 700;
+}
+.nav-link {
+  color: rgb(221, 220, 220);
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    justify-content: center !important;
+    flex-basis: auto;
+  }
+  .navbar-nav {
+    display: flex;
+    gap: 80px;
+  }
+}
+
+/* Peringatan */
+
+#Peringatan {
+  padding: 50px 0;
+
+  & .Per__CardTitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    color: white;
+    background-color: #ff0c0c;
+  }
+  & .Per__CardContainer {
+    width: 90%;
+    border: 2px solid #ff0c0c;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 30px;
+  }
+
+  & .Per__CardContent {
+    display: flex;
+    align-items: center;
+    height: 240px;
+    justify-content: center;
+  }
+
+  /* Cuaca */
+  & .Cuaca__CardTitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    color: white;
+    background-color: #5ec3e7;
+  }
+  & .Cuaca__CardContainer {
+    width: 90%;
+    border: 2px solid #5ec3e7;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 30px;
+  }
+
+  & .Cuaca__CardContent {
+    display: flex;
+    align-items: center;
+    height: 240px;
+    justify-content: center;
+  }
+
+  & p {
+    margin-bottom: 0px !important;
+  }
+
+  & .nama__airport {
+    font-style: italic;
+  }
+  & .nama__airport,
+  .perkiraan {
+    color: #5ec3e7;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #Peringatan .oke {
+    margin-top: 40px !important;
+  }
+}
+
+/* Card Cuaca */
+
+#CardCuaca {
+  margin-top: 10px;
+  padding: 50px 0;
+
+  & .cardCu {
+    overflow: hidden;
+    padding: 20px;
+    border: 2px solid #506496;
+    width: 340px;
+    position: relative;
+    border-radius: 20px;
+    height: 340px;
+    margin-top: 40px;
+
+    & h4 {
+      color: #506496;
+    }
+
+    & button {
+      position: absolute;
+      bottom: 30px;
+    }
+
+    & .desc {
+      position: absolute;
+      bottom: 80px;
+    }
+  }
+
+  & .card2 {
+    margin-top: 0px !important;
+    height: 380px;
+    background-color: #15244e;
+
+    & h4 {
+      color: white;
+    }
+  }
+  & .logo {
+    position: absolute;
+    right: 20px;
+  }
+  & .title h4 {
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  & .firstKiri {
+    display: flex;
+    justify-content: end;
+  }
+
+  & .tengah {
+    display: flex;
+    justify-content: center;
+  }
+
+  & .firstKanan {
+    display: flex;
+    justify-content: start;
+  }
+
+  & .cardCu:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .firstKanan,
+  .firstKiri,
+  .tengah {
+    justify-content: center !important;
+    margin-top: 20px;
+  }
+
+  .cardCu {
+    margin-top: 0 !important;
+  }
+}
+
+/* CardLast */
+
+#CardLast {
+  margin-top: 10px;
+  padding: 50px 0;
+  & .card {
+    border-radius: 14px;
+    position: relative;
+    width: 100%;
+    height: 14rem;
+  }
+
+  & .card:hover {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 1px 3px 9px 1px rgba(0, 0, 0, 0.292);
+    -webkit-box-shadow: 1px 3px 9px 1px rgba(0, 0, 0, 0.292);
+    -moz-box-shadow: 1px 3px 9px 1px rgba(0, 0, 0, 0.292);
+  }
+  & h5 {
+    position: absolute;
+    bottom: 110px;
+  }
+  & p {
+    position: absolute;
+    bottom: 44px;
+  }
+  & a {
+    position: absolute;
+    bottom: 14px;
+  }
+}
+
+
+/* footer */
+
+footer{
+    border-top: 1px solid rgba(58, 58, 58, 0.452);
+    padding: 50px 0;
+}
